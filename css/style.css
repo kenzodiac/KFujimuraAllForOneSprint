@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
 }
 
+/* ~~~~~~~~~~~~~~ BACKGROUND IMAGES ~~~~~~~~~~~~~~ */
 .index-bg{
     background-image: url("../assets/images/sanfrancisco.webp");
 }
@@ -50,6 +51,7 @@ body{
     background-image: url("../assets/images/santabarbara.jpg");
 }
 
+/* ~~~~~~~~~~~~~~ NAVBAR ~~~~~~~~~~~~~~ */
 .navbar{
     background-color: rgba(0, 0, 0, .8);
     height: 6rem;
@@ -80,6 +82,7 @@ body{
     color: white;
 }
 
+/* ~~~~~~~~~~~~~~ INDEX PAGE STYLING ~~~~~~~~~~~~~~ */
 .staging-area{
     background-color:rgba(0, 0, 0, .8);
     width: 94rem;
@@ -141,6 +144,7 @@ body{
     color: black;
 }
 
+/* ~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
 .footer{
     background-color: rgba(0, 0, 0, .8);
     height: 6rem;
@@ -151,4 +155,57 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 8rem;
+}
+
+
+/* ~~~~~~~~~~~~~~ SUBPAGE STYLING ~~~~~~~~~~~~~~ */
+.body-txt{
+    font-family: Inter;
+    font-size: 3rem;
+    color: white;
+}
+
+.body-spacing-1{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.body-spacing-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.default-form{
+    height: 80px;
+    font-style: Inter;
+}
+
+.hello-form{
+    width: 838px;
+}
+
+.add-two-nums-form{
+    width: 250px;
+}
+
+.form-control{
+    font-size: 3rem;
+}
+
+.submit-btn{
+    height: 80px;
+    background-color: #FFA6A6;
+    font-size: 3rem;
+    font-family: Inter;
+    font-color: black;
+}
+
+.add-two-nums-btn{
+    width: 250px;
+    height: 80px;
 }

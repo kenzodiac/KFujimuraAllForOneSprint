@@ -180,6 +180,25 @@ body{
     width: 1000px;
 }
 
+.body-spacing-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1270px;
+}
+
+.body-spacing-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1472px;
+}
+
+.mad-lib-title{
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
 .default-form{
     height: 80px;
     font-style: Inter;
@@ -191,6 +210,19 @@ body{
 
 .add-two-nums-form{
     width: 250px;
+}
+
+.askingQs-form{
+    width: 528px;
+}
+
+.mad-lib-form{
+    width: 480px;
+    margin-bottom: 1rem;
+}
+
+.odd-even-form{
+    width: 318px;
 }
 
 .form-control{
@@ -208,4 +240,13 @@ body{
 .add-two-nums-btn{
     width: 250px;
     height: 80px;
+}
+
+.askingQs-btn{
+
+}
+
+.mad-lib-btn{
+    width: 480px;
+    margin-bottom: 1rem;
 }

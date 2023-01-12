@@ -57,16 +57,18 @@
     <div class="container staging-area">
         <div class="row">
             <div class="col body-spacing-1">
-                <div class="body-txt">Please give me two whole numbers:</div>
+                <div class="body-txt">I have some questions for you:</div>
                 
-                <div class="body-spacing-2">
-                    <input id="num1Input" type="numbers" class="form-control add-two-nums-form py-0" placeholder="      num1" required>
-                    <input id="num2Input" type="numbers" class="form-control add-two-nums-form py-0" placeholder="     num2" required>
-                    <button id="submit" class="btn submit-btn add-two-nums-btn" type="button">Calculate!</button>
+                <div class="body-spacing-3">
+                    <div class="body-txt">What is your name?</div><input id="askingQsInput1" type="text" class="form-control askingQs-form py-0" placeholder="Input Name Here" required>
                 </div>
+                <div class="body-spacing-3">
+                    <div class="body-txt">What time did you wake up?</div><input id="askingQsInput2" type="text" class="form-control askingQs-form py-0" placeholder="Input Time Here" required>
+                </div>
+                <button id="submit" class="btn submit-btn askingQs-btn" type="button">Hit to Submit!</button>
 
-                <div id="add2NumsReturn" class="body-txt">
-                    &nbsp
+                <div id="askingQsReturn" class="body-txt">
+                    &nbsp<br>&nbsp
                 </div>
             </div>
         </div>

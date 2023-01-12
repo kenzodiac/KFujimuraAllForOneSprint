@@ -8,7 +8,7 @@ function urlCall(url){
     ).then(
         data => {
             console.log(data);
-            alert(data);
+            //alert(data);
         }
     );
 }

@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.index-bg{
+    background-image: url("../assets/images/sanfrancisco.webp");
+}
+
+.minich1-bg{
+    background-image: url("../assets/images/berkeley.jpg");
+}
+
+.minich2-bg{
+    background-image: url("../assets/images/davis.webp");
+}
+
+.minich3-bg{
+    background-image: url("../assets/images/fresno.jpg");
+}
+
+.minich4-bg{
+    background-image: url("../assets/images/laketahoe.jpg");
+}
+
+.minich5-bg{
+    background-image: url("../assets/images/lodi.jpg");
+}
+
+.minich6-bg{
+    background-image: url("../assets/images/losangeles.jpg");
+}
+
+.minich7-bg{
+    background-image: url("..//assets/images/sacramento.jpg");
+}
+
+.minich8-bg{
+    background-image: url("../assets/images/sandiego.webp");
+}
+
+.minich9-bg{
+    background-image: url("../assets/images/santabarbara.jpg");
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, .8);
+    height: 6rem;
+}
+
+.nav-link{
+    font-family: Inter;
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-brand{
+    font-family: Inter;
+    font-size: 2rem;
+    color: white;
+    padding-left: 27px;
+}
+
+.navbar-brand:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.staging-area{
+    background-color:rgba(0, 0, 0, .8);
+    width: 94rem;
+    max-width: 94rem;
+    height: 40rem;
+    margin-top: 7.5rem;
+}
+
+.index-page-tiles{
+    background-size: cover;
+    width: 30rem;
+    height: 12rem;
+    margin: .5rem;
+}
+
+.index-page-tiles-padding1{
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.index-page-titles-padding2{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.index-page-titles-txt-area{
+    background-color: rgba(217, 217, 217, .8);
+    margin-top: 3rem;
+    padding-left: 2rem;
+    font-family: Inter;
+    font-size: 2rem;
+    font-color: black;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.page-links{
+    color: black;
+}
+
+.page-links:link{
+    text-decoration: none;
+}
+
+.page-links:visited{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+
+.page-links:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.page-links:active{
+    color: black;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, .8);
+    height: 6rem;
+    font-family: Inter;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}

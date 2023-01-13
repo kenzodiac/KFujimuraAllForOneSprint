@@ -165,6 +165,12 @@ body{
     color: white;
 }
 
+.body-txt-2{
+    font-family: Inter;
+    font-size: 2rem;
+    color: white;
+}
+
 .body-spacing-1{
     height: 40rem;
     display: flex;

@@ -200,6 +200,11 @@ body{
     width: 1472px;
 }
 
+.askingQs-return-txt{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .mad-lib-title{
     margin-top: 29px;
     margin-bottom: 29px;
@@ -292,4 +297,9 @@ body{
     font-family: Inter;
     font-color: black;
     margin: 12px;
+}
+
+.btn-outline-secondary{
+    background-color:#FFA6A6;
+    color: black;
 }

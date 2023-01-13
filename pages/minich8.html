@@ -59,14 +59,39 @@
             <div class="col body-spacing-1">
                 <div class="body-txt">CodeStack Academy Class of 2022-2023 Student Directory:</div>
                 
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col">
-                            <div class="body-txt">Search By Name:</div>
+                        <div class="col-4" style="display: flex; justify-content: top; flex-direction: column; align-items: center;">
+                            <div class="body-txt text-center">Search By Name, Slack, or E-Mail:</div>
                             <input id="directoryInput" class="default-form directory-form form-control" placeholder="Input Name:">
                             <button id="submit" class="btn submit-btn directory-btn" type="button">Search!</button>
                         </div>
-                        <div class="col">
+                        <div class="col-8">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4"><div class="body-txt">First Name:</div></div>
+                                    <div class="col-8"><div id="firstName" class="body-txt">&nbsp</div></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4"><div class="body-txt">Last Name:</div></div>
+                                    <div class="col-8"><div id="lastName" class="body-txt">&nbsp</div></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4"><div class="body-txt">Slack Name:</div></div>
+                                    <div class="col-8"><div id="slackName" class="body-txt">&nbsp</div></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4"><div class="body-txt">E-Mail:</div></div>
+                                    <div class="col-8"><div id="email" class="body-txt">&nbsp</div></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4"><div class="body-txt">Hobbies:</div></div>
+                                    <div class="col-8"><div id="hobbies" class="body-txt">&nbsp<br>&nbsp<br>&nbsp</div></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="col">
                             <div class="body-txt">First Name:</div>
                             <div class="body-txt">Last Name:</div>
                             <div class="body-txt">Slack Name:</div>
@@ -79,7 +104,7 @@
                             <div id="slackName" class="body-txt">Kenneth Fujimura</div>
                             <div id="email" class="body-txt">kfujimura@codestack.co</div>
                             <div id="hobbies" class="body-txt">Games, Sports, Model Kits, Anime, Naps, Culinary Tourism</div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 

@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    min-width: 94rem;
 }
 
 /* ~~~~~~~~~~~~~~ BACKGROUND IMAGES ~~~~~~~~~~~~~~ */
@@ -74,7 +75,7 @@ body{
     font-family: Inter;
     font-size: 2rem;
     color: white;
-    padding-left: 27px;
+    padding-left: 1.688rem;
 }
 
 .navbar-brand:hover{
@@ -183,31 +184,31 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1000px;
+    width: 62.5rem;
 }
 
 .body-spacing-3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1270px;
+    width: 79.375rem;
 }
 
 .body-spacing-4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1472px;
+    width: 92rem;
 }
 
 .askingQs-return-txt{
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 6.25rem;
+    margin-left: 6.25rem;
 }
 
 .mad-lib-title{
-    margin-top: 29px;
-    margin-bottom: 29px;
+    margin-top: 1.813rem;
+    margin-bottom: 1.813rem;
 }
 
 .directory-column-ordering{
@@ -222,41 +223,41 @@ body{
 }
 
 .default-form{
-    height: 80px;
+    height: 5rem;
     font-style: Inter;
 }
 
 .hello-form{
-    width: 838px;
+    width: 52.375rem;
 }
 
 .add-two-nums-form{
-    width: 250px;
+    width: 15.625rem;
 }
 
 .askingQs-form{
-    width: 528px;
+    width: 33rem;
 }
 
 .mad-lib-form{
-    width: 480px;
+    width: 30rem;
     margin-bottom: 1rem;
 }
 
 .odd-even-form{
-    width: 318px;
+    width: 19.875rem;
 }
 
 .reverse-form{
-    width: 1000px;
-    height: 200px;
+    width: 62.5rem;
+    height: 12.5rem;
     text-align: top;
 }
 
 .directory-form{
-    width: 395px;
-    margin-top: 6px;
-    margin-bottom: 26px;
+    width: 24.688rem;
+    margin-top: 0.375rem;
+    margin-bottom: 1.625rem;
 }
 
 .form-control{
@@ -264,7 +265,7 @@ body{
 }
 
 .submit-btn{
-    height: 80px;
+    height: 5rem;
     background-color: #FFA6A6;
     font-size: 3rem;
     font-family: Inter;
@@ -272,8 +273,8 @@ body{
 }
 
 .add-two-nums-btn{
-    width: 250px;
-    height: 80px;
+    width: 15.625rem;
+    height: 5rem;
 }
 
 .askingQs-btn{
@@ -281,22 +282,22 @@ body{
 }
 
 .mad-lib-btn{
-    width: 480px;
+    width: 30rem;
     margin-bottom: 1rem;
 }
 
 .directory-btn{
-    width: 395px;
+    width: 24.688rem;
 }
 
 .restaurant-btn{
-    height: 80px;
-    width: 320px;
+    height: 5rem;
+    width: 20rem;
     background-color: #D9D9D9;
     font-size: 3rem;
     font-family: Inter;
     color: black;
-    margin: 12px;
+    margin: 0.75rem;
 }
 
 .btn-outline-secondary{

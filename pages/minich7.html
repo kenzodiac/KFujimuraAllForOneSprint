@@ -56,8 +56,16 @@
     <!--%%%%%%%%%%%%%%%%%%% MAIN BODY BEGINS %%%%%%%%%%%%%%%%%%%-->
     <div class="container staging-area">
         <div class="row">
-            <div class="col">
+            <div class="col body-spacing-1">
+                <div class="body-txt">Please tell me anything, and I'll tell you the reverse of it:</div>
+                
+                <textarea id="reverseInput" class="form-control reverse-form py-0" placeholder="Input Text Here" required></textarea>
+                
+                <button id="submit" class="btn submit-btn askingQs-btn" type="button">Computate!</button>
 
+                <div id="askingQsReturn" class="body-txt overflow-auto">
+                    &nbsp
+                </div>
             </div>
         </div>
     </div>

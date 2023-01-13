@@ -20,7 +20,7 @@ body{
 }
 
 .minich2-bg{
-    background-image: url("../assets/images/davis.webp");
+    background-image: url("../assets/images/davis.png");
 }
 
 .minich3-bg{
@@ -36,11 +36,11 @@ body{
 }
 
 .minich6-bg{
-    background-image: url("../assets/images/losangeles.jpg");
+    background-image: url("../assets/images/losangeles.png");
 }
 
 .minich7-bg{
-    background-image: url("..//assets/images/sacramento.jpg");
+    background-image: url("..//assets/images/sacramento.png");
 }
 
 .minich8-bg{
@@ -48,7 +48,7 @@ body{
 }
 
 .minich9-bg{
-    background-image: url("../assets/images/santabarbara.jpg");
+    background-image: url("../assets/images/santabarbara.png");
 }
 
 /* ~~~~~~~~~~~~~~ NAVBAR ~~~~~~~~~~~~~~ */
@@ -199,6 +199,17 @@ body{
     margin-bottom: 29px;
 }
 
+.directory-column-ordering{
+    display: flex;
+    direction: column;
+    width: 50%;
+}
+
+.directory-row-ordering{
+    display: flex;
+    direction: row;
+}
+
 .default-form{
     height: 80px;
     font-style: Inter;
@@ -225,6 +236,18 @@ body{
     width: 318px;
 }
 
+.reverse-form{
+    width: 1000px;
+    height: 200px;
+    text-align: top;
+}
+
+.directory-form{
+    width: 395px;
+    margin-top: 6px;
+    margin-bottom: 26px;
+}
+
 .form-control{
     font-size: 3rem;
 }
@@ -249,4 +272,18 @@ body{
 .mad-lib-btn{
     width: 480px;
     margin-bottom: 1rem;
+}
+
+.directory-btn{
+    width: 395px;
+}
+
+.restaurant-btn{
+    height: 80px;
+    width: 320px;
+    background-color: #D9D9D9;
+    font-size: 3rem;
+    font-family: Inter;
+    font-color: black;
+    margin: 12px;
 }
